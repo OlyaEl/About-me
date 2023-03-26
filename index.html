@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0c3344fd9c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Познакомимся поближе</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <a class="menu__item" href="#about-me">Обо мне</a>
+            <a class="menu__item" href="#favourite-books">Любимые книги</a>
+            <a class="menu__item" href="#favourite-films">Любимые фильмы</a>
+        </nav>
+    </header>
+    <main>
+        <section class="greeting">
+            <h2 class="greeting_title">Привет, <span id="friend-name">друг</span>!</h2>
+            <button class="btn" id="introduce-btn">Представиться</button>
+            <div class="greeting__photo image">
+                <img src="images/olga.jpg" alt="Фото девушки">
+            </div>
+            <h1 class="title">Cтудентка Codegirl School</h1>
+        </section>
+        <section class="about-me" id="about-me">
+            <h2 class="caption">Обо мне</h2>
+            <p class="about-me__text description">Меня зовут, Оля и я студентка Codegirl School. Сейчас работаю в сфере визовых вопросов стран Шенген соглашения. Но решила научиться чему-то новому и интересному.</p>
+            <p class="about-me__text description">У меня есть хобби - люблю шить одежду или мастерить мягкие игрушки для своих дочек. Знаете, это очень увлекательно видеть, как из непримечательных кусочков ткани получается яркий сарафан или новый житель кукольного домика. Наверное, именно
+                поэтому из всех возможных направлений IT сферы мне приглянулась веб-разработка. Ведь, обычная запись множества символов, букв и знаков в итоге превращается в красивую и ожившую страничку на мониторе компьютера, экране смартфона или планшета.</p>
+        </section>
+        <section class="books" id="favourite-books">
+            <h2 class="caption">Любимые книги</h2>
+            <p class="description">В свободное от работы и домашних хлопот время, я люблю читать. У меня нет какой-то любимой книги, которую я бы перечитывала несколько раз, но есть те, которые меня тронули и остались в пямяти. Вот парочка из них:</p>
+            <ul class="favourite-list">
+                <li>
+                    <div class="image">
+                        <a class="favourite-list__item" href="https://ru.bookmate.com/books/ec5upHWR" target="_blank">
+                            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLIFlnQYBFTTflQWGZio4inIaHcz78calD2NlLtrOXFycRuKW8" alt="В темноте">
+                        </a>
+                    </div>
+                    <p class="favourite-list__text">В темноте</p>
+                </li>
+                <li>
+                    <div class="image">
+                        <a class="favourite-list__item" href="https://ru.bookmate.com/books/uuiMHcRz" target="_blank">
+                            <img src="https://cv1.litres.ru/pub/c/elektronnaya-kniga/cover_330/21150614-chesli-b-salli-sallenberger-chudo-na-gudzone.webp" alt="Чудо на гудзоне">
+                        </a>
+                    </div>
+                    <p class="favourite-list__text">Чудо на Гудзоне</p>
+                </li>
+            </ul>
+        </section>
+        <section class="films" id="favourite-films">
+            <h2 class="caption">Любимые фильмы</h2>
+            <p class="description">Долгие зимние вечера мне нравится проводить за просмотром любимых фильмов. Предлагаю и тебе посмотреть их вместе со мной, тем более, что зима близко. Одни из моих любимых это:</p>
+            <ul class="favourite-list">
+                <li>
+                    <div class="image">
+                        <a class="favourite-list__item" href="https://www.kinopoisk.ru/film/32898/0" target="_blank">
+                            <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/3fb781cd-2b98-4072-b102-311661121a2e/300x450" alt="Обложка фильма">
+                        </a>
+                    </div>
+                    <p class="favourite-list__text">Достучаться до небес</p>
+                </li>
+                <li>
+                    <div class="image">
+                        <a class="favourite-list__item" href="https://www.kinopoisk.ru/film/3561/" target="_blank">
+                            <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/46e6c191-dba6-49de-b025-c3dd9b202571/300x450" alt="Обложка фильма">
+                        </a>
+                    </div>
+                    <p class="favourite-list__text">Дневник памяти</p>
+                </li>
+                <li>
+                    <div class="image">
+                        <a class="favourite-list__item" href="https://www.kinopoisk.ru/film/689/" target="_blank">
+                            <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/27ed5c19-a045-49dd-8624-5f629c5d96e0/300x450" alt="Обложка фильма">
+                        </a>
+                    </div>
+                    <p class="favourite-list__text">Гарри Поттер</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2 class="footer__title">Связаться со мной</h2>
+        <div class="social-links">
+            <a class="social-links__item" href="https://www.instagram.com/" aria-label="Перейти в instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a class="social-links__item" href="https://www.facebook.com" aria-label="Перейти на facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+            <a class="social-links__item" href="https://www.twitter.com" aria-label="Перейти в twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

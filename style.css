@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 25px;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(#65f0c2, #f3e73de3);
+    font-family: "Source Serif Pro", sans-serif;
+    text-align: center;
+}
+
+section {
+    padding: 50px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header {
+    font-size: 0.9rem;
+    background-color: #58dfb2a8;
+    padding: 20px 0;
+}
+
+.menu {
+    font-weight: 700;
+    line-height: 0.92rem;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+}
+
+.menu__item:not(:last-child)::after {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #FFF;
+    margin: 8px 45px;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #000;
+    margin-bottom: 80px;
+}
+
+.greeting_title {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+div.greeting__photo {
+    width: 400px;
+    height: 400px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.title {
+    font-size: 1.75rem;
+}
+
+.caption {
+    font-size: 1.6rem;
+}
+
+.about-me__text.description {
+    max-width: 1200px;
+    margin-bottom: 0;
+    font-size: 1.15rem;
+}
+
+.description {
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+.favourite-list {
+    display: flex;
+    justify-content: center;
+}
+
+.favourite-list li {
+    list-style-type: none;
+}
+
+.favourite-list li:not(:last-child) {
+    margin-right: 60px;
+}
+
+.favourite-list__text {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.footer {
+    padding: 50px 0;
+}
+
+.footer__title {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+
+.social-links__item {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #FFF;
+    position: relative;
+    transition: 0.5s;
+}
+
+.social-links__item:hover {
+    transform: scale(1.25);
+}
+
+.social-links__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.social-links__item i:first-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
